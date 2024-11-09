@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <tittle>
+           Sign up
+        </tittle>
+        <style>
+            body{
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                background-color: color-mix(in hsl shorter hue, percentage, color percentage);
+            }
+            *{
+                box-sizing: border-box;
+            }
+            .container{
+                padding: 16px;
+                background-color: white;
+            }
+            input[type=text],[type=text],[type=email],[type=newpassword],input[type=conformpassword]{
+                width: 200px;
+                height: 5px;
+                padding: 15px;
+                margin: 5px 0 22px 0;
+                display: inline-block;
+                border: none;
+                outline: none;
+                background-color: whitesmoke;                
+            }
+            input[type=text]:focus,input[type=text]:focus,input[type=email]:focus,input[type=newpassword]:focus,input[type=conformpassword]:focus{
+                background-color:aquamarine;
+                outline: none;
+            }
+            .registerbtn{
+                background-color: rgb(223, 255, 154);
+                color: red;
+                padding: 16px 20px;
+                margin: 8px;
+                cursor: pointer;
+                width: 100px;
+                opacity: 0.9;
+            }
+            .registerbtn:hover{
+                opacity: 1;
+            }
+            a{
+                color: blueviolet;
+            }
+            .login{
+                background-color: whitesmoke;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+        <form>
+            <center>
+            <h1>Sign Up!</h1>          
+            <p>Please fill this form to create your page😊</p>
+            <hr />
+            <label>User Name</label>
+            <input type="text" placeholder="Username" />
+            <br />
+            <label>Name</label>
+            <input type="text" placeholder="Name" />
+            <br />
+            <label>Email</label>
+            <input type="email" placeholder="Email" />
+            <br />
+            <label>New Password</label>
+            <input type="newpassword" placeholder="Password" />
+            <br />
+            <label>Conform Password</label>
+            <input type="conformpassword" placeholder="Conform Password" />
+            <p> By creating your own account to our <a href="thanks.png"> Terms and Conditions</a></p>
+            <button class="registerbtn">Sign Up</button>
+            <button class="registerbtn">Cancel</button>
+            
+            <div class="Login">
+            <p> Already you have account? <a href="index.html">Login</a></p>
+        </center>
+        </form>
+        </div>
+    </body>
+</html>
